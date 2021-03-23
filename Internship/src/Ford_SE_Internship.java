@@ -2,7 +2,7 @@
 //Email: renataau02@gmail.com
 //Position application: Software Engineer Intern
 
-//Note to run:JavaFX library must be installed and in the package and add
+//Note to run: Please read the "Download JavaFX read" on this repository on how to implement JavaFX
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
