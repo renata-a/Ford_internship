@@ -1,0 +1,29 @@
+This is to help set up JavaFx(for JDK 11 and higher)
+
+https://gluonhq.com/products/javafx/ (choose an SDK and download the file fit for your computer)
+Unzip the file and copy the adress of "Lib" folder
+Go to Eclipse, hit "Windows" and under that, "Preferences"
+Type "User Libraries" in the search and click "User Libraries" under "Java > Build Path"
+Click "New" and call it "JavaFX"
+Click on the library you made and then click "Add External JARs"
+Scroll until you find the JavaFX SDK you made
+Go to the lib folder and select all the .jar files (Do not select src.zip)
+Click "Apply and Close"
+
+Create a new Java Project
+Hit "Next"
+Click the "Libraries" tab and select "Add Library"
+Click "User Library" and then "Next"
+Find the library you just created and check its checkbox and then press "Finish"
+
+Now go to the "Run" icon and select the drop down until you reach "Run Configurations"
+Click the "Arguments" tab and go to the "VM arguments" tab
+Add these two arguments
+--module-path(path to the lib folder in JavaFX)
+--add-modules javafx.controls
+Do not include the () in the first argument, just paste the location
+Select "Apply" and then "Run"
+You should have now downloaded JavaFX onto Eclipse
+(I only have the knowledge to download this onto Eclipse)
+(If you run into any errors, please email me at renataau02@gmail.com)
+
